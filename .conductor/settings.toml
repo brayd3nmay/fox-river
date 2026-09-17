@@ -1,0 +1,14 @@
+"$schema" = "https://conductor.build/schemas/settings.repo.schema.json"
+
+[scripts]
+setup = "pnpm install"
+run_mode = "concurrent"
+
+[scripts.run.dev]
+command = "pnpm dev --port $CONDUCTOR_PORT"
+default = true
+icon = "play"
+
+[[preview_urls]]
+name = "Web"
+url = "http://127.0.0.1:$CONDUCTOR_PORT"
