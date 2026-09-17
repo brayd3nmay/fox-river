@@ -1,0 +1,46 @@
+{
+  "note": "Existing client website assets, downloaded 2026-09-17. Temporary pending replacement photography.",
+  "images": [
+    {
+      "file": "riverfront.webp",
+      "source": "https://i-p.rmcdn.net/65e60abe2dae530043af1fad/4523867/image-8ffd3c25-6187-4881-b0a3-8181d324bcb3.jpg"
+    },
+    {
+      "file": "camping.webp",
+      "source": "https://i-p.rmcdn.net/65e60abe2dae530043af1fad/4523867/image-1969e267-78cd-490f-8b1a-dd7bffa9a196.jpg"
+    },
+    {
+      "file": "cabin.webp",
+      "source": "https://i-p.rmcdn.net/65e60abe2dae530043af1fad/4523867/image-6d138683-e2bd-4825-baf0-04587374d799.jpg"
+    },
+    {
+      "file": "seasonal.webp",
+      "source": "https://i-p.rmcdn.net/65e60abe2dae530043af1fad/4523867/image-08630f00-e057-4747-a2d9-e8855dffcfd1.jpg"
+    },
+    {
+      "file": "boating.webp",
+      "source": "https://i-p.rmcdn.net/644dcb68f7e0040037a9322b/4523867/image-b460a8f2-d41b-41aa-98b9-72cd95f07913.jpg"
+    },
+    {
+      "file": "pool.webp",
+      "source": "https://i-p.rmcdn.net/644dcb68f7e0040037a9322b/4523867/image-bade0854-b273-4cf2-b3a0-19047feefcd9.jpg"
+    },
+    {
+      "file": "community.webp",
+      "source": "https://i-p.rmcdn.net/65e60abe2dae530043af1fad/4523867/image-2cf02df4-0471-4d0c-ba52-49c87efb6559.jpg"
+    }
+  ],
+  "logo": {
+    "source": "Client supplied ChatGPT Image Sep 17, 2026, 12_17_19 PM.png",
+    "received": "2026-09-17",
+    "assets": [
+      "fox-river-logo.webp",
+      "../../src/app/icon.png"
+    ],
+    "preparation": "Transparent background extraction using the built-in imagegen tool, then resized for web use.",
+    "prompts": {
+      "wordmark": "Create a clean cutout of the upper horizontal logo only. Keep precisely the source symbol and exact Fox River RECREATION lettering. All visible artwork is solid flat forest green #294D3C with sharp clean edges. Background fully transparent (alpha zero), no black background and absolutely NO GLOW, no blur, no shadow, no gradient or effects. Remove all original cream paper background. Remove the second standalone symbol at the bottom. Final asset wide horizontal transparent logo, minimal empty padding, preserve original design.",
+      "icon": "Extract ONLY the standalone green river/fox-tail symbol at the BOTTOM of the supplied image for a favicon. Preserve the exact original symbol shape and proportions. Center it on a square truly transparent alpha background, occupying 85% of the square width. Flat solid forest green #294D3C silhouette, sharp clean edges. Remove cream paper background and all lettering/top logo completely. No text. Absolutely no glow, no shadows, no gradients, no mockup. This is faithful background extraction, not a redesign."
+    }
+  }
+}
