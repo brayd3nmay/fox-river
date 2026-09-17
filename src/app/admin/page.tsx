@@ -33,7 +33,7 @@ export default async function AdminPage({
   const { error } = await searchParams;
   const configured = isSupabaseConfigured();
   return (
-    <main className="flex min-h-screen items-center justify-center bg-[#e9eddf] px-5 py-16">
+    <main className="flex min-h-screen items-center justify-center bg-[#e3ecf6] px-5 py-16">
       <div className="w-full max-w-md rounded-lg border bg-background p-8 sm:p-12">
         <Brand />
         <h1 className="display mt-7 text-4xl">A little upkeep.</h1>

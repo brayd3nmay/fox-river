@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --preview-bar: #a25432;
-  --background: #f8f6ef;
-  --foreground: #233d31;
-  --card: #fffef9;
-  --card-foreground: #233d31;
-  --primary: #294d3c;
-  --primary-foreground: #fffef8;
-  --secondary: #eeeee3;
-  --secondary-foreground: #294d3c;
-  --muted: #eeeee3;
-  --muted-foreground: #657064;
-  --accent: #e7ecdf;
-  --accent-foreground: #294d3c;
-  --destructive: #a13725;
-  --border: #d9ddcf;
-  --input: #d9ddcf;
-  --ring: #637e50;
+  --preview-bar: #c1272d;
+  --background: #f4f7fb;
+  --foreground: #132f4c;
+  --card: #ffffff;
+  --card-foreground: #132f4c;
+  --primary: #1a6fc4;
+  --primary-foreground: #ffffff;
+  --secondary: #e6edf5;
+  --secondary-foreground: #174a7c;
+  --muted: #e6edf5;
+  --muted-foreground: #5b6b7f;
+  --accent: #dbe7f5;
+  --accent-foreground: #174a7c;
+  --destructive: #c1272d;
+  --border: #d3ddea;
+  --input: #d3ddea;
+  --ring: #1a6fc4;
   --radius: 0.4rem;
 }
 @theme inline {
@@ -59,8 +59,8 @@ body {
   font-family: var(--font-dm-sans), sans-serif;
 }
 ::selection {
-  background: #d7dfbe;
-  color: #233d31;
+  background: #c9dcf3;
+  color: #132f4c;
 }
 button,
 a,
@@ -81,7 +81,7 @@ summary {
   outline-offset: 5px;
 }
 :focus-visible {
-  outline: 2px solid #a9603c;
+  outline: 2px solid #c1272d;
 }
 button:disabled {
   cursor: not-allowed;
@@ -116,7 +116,7 @@ p {
 .body-copy {
   font-size: 16px;
   line-height: 1.85;
-  color: #626b61;
+  color: #5b6b7f;
 }
 .section-pad {
   padding-block: 104px;
@@ -139,6 +139,9 @@ p {
 .text-link:hover svg {
   transform: translateX(4px);
 }
+.text-link:hover {
+  color: #c1272d;
+}
 .photo {
   object-fit: cover;
   transition: transform 0.7s ease;
@@ -157,14 +160,14 @@ p {
   left: 16px;
   padding: 12px 20px;
   background: #fff;
-  color: #233d31;
+  color: #132f4c;
 }
 .skip-link:focus {
   top: 16px;
 }
 .announcement {
-  background: #294d3c;
-  color: #f8f6ef;
+  background: #14467c;
+  color: #f4f7fb;
   text-align: center;
   padding: 9px 16px;
   font-size: 10px;
@@ -199,14 +202,14 @@ p {
   font-weight: 500;
 }
 .desktop-nav > a:not(.nav-call):hover {
-  color: #8b4a2e;
+  color: #c1272d;
 }
 .nav-call {
   padding: 12px 19px;
   display: inline-flex;
   gap: 10px;
   align-items: center;
-  border: 1px solid #294d3c;
+  border: 1px solid #1a6fc4;
   border-radius: 3px;
   font-size: 12px;
 }
@@ -219,7 +222,7 @@ p {
   height: min(760px, 78vh);
   position: relative;
   isolation: isolate;
-  color: #fffdf5;
+  color: #f7faff;
   overflow: hidden;
 }
 .hero::after {
@@ -228,8 +231,8 @@ p {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(90deg, rgba(13, 34, 24, 0.64), rgba(13, 34, 24, 0.15) 80%),
-    linear-gradient(0deg, rgba(13, 34, 24, 0.5), transparent 40%);
+    linear-gradient(90deg, rgba(10, 30, 55, 0.64), rgba(10, 30, 55, 0.15) 80%),
+    linear-gradient(0deg, rgba(10, 30, 55, 0.5), transparent 40%);
 }
 .hero > .hero-image,
 .hero > video {
@@ -258,7 +261,7 @@ p {
   font-size: 15px;
   line-height: 1.85;
   margin-top: 25px;
-  color: #f4f3e8;
+  color: #e8eff8;
 }
 .hero-actions {
   display: flex;
@@ -313,12 +316,12 @@ p {
   font-size: 13px;
   line-height: 1.8;
   min-height: 70px;
-  color: #626b61;
+  color: #5b6b7f;
 }
 .stay-price {
   margin-top: 22px;
   padding-top: 19px;
-  border-top: 1px solid #d6d8ca;
+  border-top: 1px solid #d3ddea;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -334,14 +337,14 @@ p {
   left: 17px;
   bottom: 17px;
   padding: 7px 11px;
-  background: #f8f6eff2;
+  background: #f4f7fbf2;
   font-size: 9px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
 }
 .amenities-section {
-  background: #e9eddf;
+  background: #e3ecf6;
 }
 .amenity-grid {
   display: grid;
@@ -349,7 +352,7 @@ p {
   gap: 32px 28px;
 }
 .amenity-item {
-  border-top: 1px solid #c8d0bc;
+  border-top: 1px solid #b9cbe4;
   padding-top: 24px;
 }
 .amenity-item svg {
@@ -364,7 +367,7 @@ p {
 }
 .amenity-item p {
   font-size: 12px;
-  color: #596651;
+  color: #5b6b7f;
   line-height: 1.8;
   margin-top: 8px;
   max-width: 180px;
@@ -372,8 +375,8 @@ p {
 .river-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: #294d3c;
-  color: #f8f6ef;
+  background: #14467c;
+  color: #f4f7fb;
 }
 .river-photo {
   min-height: 620px;
@@ -386,7 +389,7 @@ p {
   justify-content: center;
 }
 .river-copy .body-copy {
-  color: #d2dccb;
+  color: #c6d8ee;
   margin-top: 26px;
   font-size: 14px;
 }
@@ -413,7 +416,7 @@ p {
 }
 .rate-preview-row {
   padding: 24px 0;
-  border-bottom: 1px solid #d9ddcf;
+  border-bottom: 1px solid #d3ddea;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -427,7 +430,7 @@ p {
   font-weight: 500;
 }
 .rate-preview-row small {
-  color: #687060;
+  color: #5b6b7f;
   font-size: 11px;
 }
 .rate-preview-price {
@@ -438,7 +441,7 @@ p {
 .rate-preview-price span {
   font-family: var(--font-dm-sans);
   font-size: 11px;
-  color: #687060;
+  color: #5b6b7f;
 }
 .gallery-grid {
   display: grid;
@@ -451,7 +454,7 @@ p {
   aspect-ratio: 0.82;
   border: 0;
   padding: 0;
-  background: #e9eddf;
+  background: #e3ecf6;
 }
 .gallery-grid > button:nth-child(even) {
   margin-top: 42px;
@@ -464,7 +467,7 @@ p {
   position: absolute;
   inset: auto 0 0;
   padding: 18px;
-  background: linear-gradient(transparent, #152a2099);
+  background: linear-gradient(transparent, #0a1e3799);
   color: white;
   text-align: right;
 }
@@ -498,14 +501,14 @@ p {
   align-items: center;
 }
 .visit-card {
-  background: #eeeee3;
+  background: #e6edf5;
   padding: 40px;
 }
 .visit-row {
   display: flex;
   gap: 18px;
   align-items: start;
-  border-bottom: 1px solid #d0d5c7;
+  border-bottom: 1px solid #c8d5e8;
   padding-bottom: 24px;
   margin-bottom: 24px;
 }
@@ -531,8 +534,8 @@ p {
   line-height: 1.7;
 }
 .footer {
-  background: #203e30;
-  color: #e9eddf;
+  background: #102e4f;
+  color: #e3ecf6;
   padding: 60px 0 22px;
 }
 .footer-top {
@@ -550,10 +553,10 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  border-top: 1px solid #53705b;
+  border-top: 1px solid #2c5a8d;
   padding-top: 22px;
   font-size: 10px;
-  color: #bdcbb8;
+  color: #b9cbe4;
 }
 .page-intro {
   padding: 80px 0 65px;
@@ -609,7 +612,7 @@ p {
 }
 .full-rate-row p {
   font-size: 12px;
-  color: #626b61;
+  color: #5b6b7f;
   margin-top: 6px;
   line-height: 1.6;
 }
@@ -621,7 +624,7 @@ p {
 .full-rate-row .price small {
   display: block;
   font-size: 11px;
-  color: #626b61;
+  color: #5b6b7f;
 }
 .rule-item {
   padding: 26px 0;
@@ -638,7 +641,7 @@ p {
 }
 .callout {
   padding: 30px;
-  background: #e9eddf;
+  background: #e3ecf6;
   margin: 36px 0;
 }
 .admin-field {
@@ -654,11 +657,11 @@ p {
 .admin-field select {
   width: 100%;
   padding: 10px 12px;
-  border: 1px solid #cbd2c4;
+  border: 1px solid #c2cfe3;
   border-radius: 4px;
-  background: #fffef9;
+  background: #ffffff;
   font-size: 14px;
-  color: #233d31;
+  color: #132f4c;
 }
 .admin-field textarea {
   min-height: 100px;
@@ -666,12 +669,12 @@ p {
 }
 .admin-field small {
   font-size: 12px;
-  color: #626b61;
+  color: #5b6b7f;
 }
 .admin-panel {
   border: 1px solid var(--border);
   padding: 28px;
-  background: #fffef9;
+  background: #ffffff;
   border-radius: 6px;
 }
 .admin-panel h2 {

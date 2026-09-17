@@ -10,7 +10,7 @@ export function SiteFooter({ contact }: { contact: SiteContent["contact"] }) {
         <div className="footer-top">
           <div>
             <Brand />
-            <p className="mt-5 text-xs text-[#bdcbb8]">
+            <p className="mt-5 text-xs text-[#b9cbe4]">
               Good days. Great company. Life by the river.
             </p>
           </div>
