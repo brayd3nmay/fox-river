@@ -223,7 +223,7 @@ export function HomePage({ content: c }: { content: SiteContent }) {
           </div>
           <Gallery images={c.gallery} />
         </section>
-        <section className="section-pad border-y border-border bg-[#f0f0e6]">
+        <section className="section-pad border-y border-border bg-[#e8eef6]">
           <div className="container-wide">
             <div className="mb-12 text-center">
               <h2 className="display section-title">
@@ -236,7 +236,7 @@ export function HomePage({ content: c }: { content: SiteContent }) {
               {c.reviews.map((review) => (
                 <blockquote key={review.name} className="review">
                   <Quote
-                    className="text-[#7b8c65]"
+                    className="text-[#c1272d]"
                     size={25}
                     strokeWidth={1.3}
                     aria-hidden="true"

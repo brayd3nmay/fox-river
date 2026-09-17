@@ -342,7 +342,7 @@ export function Editor({
     );
   }
   return (
-    <div className="min-h-screen bg-[#f0f1e8]">
+    <div className="min-h-screen bg-[#edf2f8]">
       <header className="border-b bg-background px-5 py-5">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4">
           <div className="flex flex-wrap items-center gap-x-4">
@@ -367,7 +367,7 @@ export function Editor({
       </header>
       <main className="mx-auto max-w-6xl px-5 py-10">
         {demo && (
-          <div className="mb-8 rounded border border-[#ccd5bc] bg-[#e5ebd9] p-4 text-sm leading-6">
+          <div className="mb-8 rounded border border-[#b9cbe4] bg-[#dbe7f5] p-4 text-sm leading-6">
             <strong>Local editor preview.</strong> Try editing content, save a
             draft in this browser, and preview your changes. Publishing and
             uploads require owner sign-in.{" "}
@@ -434,10 +434,10 @@ export function Editor({
         </div>
         <div className="mb-5 flex flex-wrap items-center gap-4 text-xs">
           <span
-            className={`flex items-center gap-2 ${dirty ? "text-[#985231]" : "text-muted-foreground"}`}
+            className={`flex items-center gap-2 ${dirty ? "text-[#c1272d]" : "text-muted-foreground"}`}
           >
             <span
-              className={`h-2 w-2 rounded-full ${dirty ? "bg-[#a75b38]" : "bg-[#698058]"}`}
+              className={`h-2 w-2 rounded-full ${dirty ? "bg-[#c1272d]" : "bg-[#1a6fc4]"}`}
             />
             {dirty
               ? "Unsaved changes"
@@ -456,7 +456,7 @@ export function Editor({
             role={message.ok ? "status" : "alert"}
             className={
               message.ok
-                ? "mb-5 flex items-center gap-2 rounded border bg-[#e7eddd] p-4 text-sm"
+                ? "mb-5 flex items-center gap-2 rounded border bg-[#dbe7f5] p-4 text-sm"
                 : "mb-5 rounded border border-destructive/30 bg-red-50 p-4 text-sm text-destructive"
             }
           >
